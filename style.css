@@ -1,9 +1,12 @@
 * {
-  font-family: "monaco", monospace;
+  font-family: "noto-sans", monospace;
   background-color: #282a36;
   color: #f8f8f2;
-  padding-left: 7%;
-  padding-right: 7%;
+}
+
+body {
+  width: 60%;
+  margin: auto;
 }
 
 a:hover {
@@ -24,6 +27,7 @@ h1 {
 ol,
 ul {
   list-style-position: inside;
+  list-style: none;
 }
 
 .warning {
@@ -34,4 +38,23 @@ ul {
 
 li {
   padding-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.recipe-list {
+  text-align: center;
+}
+
+.recipe {
+  padding: 20px;
+  border: #bd93f9 5px solid;
+  width: 350px;
+  margin: 30px auto;
+}
+
+.ingredients-list {
+  margin-right: 15px;
 }
